@@ -64,8 +64,6 @@ client.on('ready', async () => {
 			status.edit({ content: null, embeds: [ embedSatus ] })
 				    
 		}).catch((error) => {
-
-			console.log(error)
 			let embedSatusOff = new MessageEmbed()
 				.setTitle("🔴 Serveur offline")
 				.setColor("#d65a5a")
