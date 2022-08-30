@@ -1,0 +1,6 @@
+{
+  "token": "Discord Token",
+  "channelID": "Channel ID",
+  "ip": "IP of gmod server",
+  "port": 27015
+}
