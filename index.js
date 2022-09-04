@@ -19,7 +19,7 @@ client.on('ready', async () => {
 		Gamedig.query({
 			type: 'garrysmod',
 			host: ip,
-			listenUdpPort: port,
+			port: port,
 		}).then((state) => {
 			var playerList = ""
 
@@ -54,7 +54,7 @@ client.on('ready', async () => {
 						value: "━━━━━━━━━━━━━━━━━━━━━━━━",
 					},
 					{
-						name: "📡 ┃ Rejoindre",
+						name: "📡 ┃ Join us",
 						value: "**steam://connect/"+ ip + ":" + port + "**",
 					},
 				)
